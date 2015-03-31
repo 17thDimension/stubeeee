@@ -1,18 +1,28 @@
 /* app css stylesheet */
-
+* {
+  margin: 0;
+}
+a{
+  background-color:lightgrey;
+  border-radius:20px;
+  padding:5px;
+}
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
   padding: 0 0 0.5em;
+  text-align:center;
+  background-image:url("img/header.png");
+  padding: 30px;
+  background-size:100%;
 }
 
 .menu:before {
-  content: "[";
+  content: "~";
 }
 
 .menu:after {
-  content: "]";
+  content: "~";
 }
 
 .menu > li {
