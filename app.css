@@ -3,9 +3,9 @@
   margin: 0;
 }
 a{
-  background-color:lightgrey;
-  border-radius:20px;
-  padding:5px;
+  background-color:aquamarine;
+  border-radius:40px;
+  padding:15px;
 }
 .menu {
   list-style: none;
